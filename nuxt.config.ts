@@ -21,7 +21,6 @@ export default defineNuxtConfig({
   ],
 
   tailwindcss: {
-    exposeConfig: true,
     injectPosition: 'last',
     classSuffix: ''
   },
@@ -41,9 +40,6 @@ export default defineNuxtConfig({
 
   content: {
     documentDriven: true,
-    navigation: {
-      fields: ['navTitle']
-    },
     highlight: {
       theme: 'one-dark-pro',
       preload: ['json', 'js', 'ts', 'html', 'css', 'vue', 'diff', 'shell', 'markdown', 'yaml', 'bash', 'ini', 'c', 'cpp']
