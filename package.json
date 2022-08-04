@@ -1,29 +1,27 @@
 {
+  "name": "my-nuxt-theme",
   "private": true,
+  "type": "module",
+  "exports": "./theme/nuxt.config.ts",
+  "files": [
+    "theme"
+  ],
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "dev": "nuxt dev template",
+    "build": "nuxt build template",
+    "generate": "nuxt generate template",
+    "preview": "nuxt preview template",
+    "lint": "eslint ."
   },
   "dependencies": {
-    "@fontsource/inter": "^4.5.11",
-    "@iconify/vue": "^3.2.1",
-    "@nuxt/content": "npm:@nuxt/content-edge@latest",
-    "@nuxthq/studio": "npm:@nuxthq/studio-edge@latest",
-    "@nuxtjs/color-mode": "^3.1.4",
-    "@nuxtjs/tailwindcss": "^5.3.0",
-    "@tailwindcss/aspect-ratio": "^0.4.0",
-    "@tailwindcss/line-clamp": "^0.4.0",
-    "@tailwindcss/typography": "^0.5.2",
     "@nuxt-themes/config": "npm:@nuxt-themes/config-edge@latest",
-    "@nuxtjs/design-tokens": "npm:@nuxtjs/design-tokens-edge@latest",
-    "tailwindcss": "^3.1.6"
+    "@nuxt/content": "npm:@nuxt/content-edge@latest",
+    "@nuxtjs/design-tokens": "npm:@nuxtjs/design-tokens-edge@latest"
   },
   "devDependencies": {
-    "typescript": "^4.7.4",
+    "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "eslint": "^8.19.0",
     "nuxt": "npm:nuxt3@latest",
-    "@nuxtjs/eslint-config-typescript": "^10.0.0"
+    "typescript": "^4.7.4"
   }
 }
