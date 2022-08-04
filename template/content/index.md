@@ -2,4 +2,6 @@
 title: Home
 ---
 
-Hello World :wave:
+::hello-world
+Hello World 👋
+::
