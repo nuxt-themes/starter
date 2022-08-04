@@ -1,10 +1,16 @@
 {
+  "name": "@nuxt-themes/starter",
   "private": true,
+  "type": "module",
+  "exports": "./theme/nuxt.config.ts",
+  "files": [
+    "theme"
+  ],
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "build": "nuxt build theme",
+    "dev": "nuxt dev theme",
+    "generate": "nuxt generate theme",
+    "preview": "nuxt preview theme"
   },
   "dependencies": {
     "@fontsource/inter": "^4.5.11",
