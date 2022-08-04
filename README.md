@@ -1,6 +1,6 @@
-# Content v2 Minimal Starter
+# Nuxt Theme Starter
 
-Look at the [Content documentation](https://content-v2.nuxtjs.org/) to learn more.
+Create Nuxt theme with this GitHub template.
 
 ## Setup
 
@@ -31,6 +31,12 @@ Build the application for production:
 
 ```bash
 npm run build
+```
+
+Or statically generate it with:
+
+```bash
+npm run generate
 ```
 
 Locally preview production build:

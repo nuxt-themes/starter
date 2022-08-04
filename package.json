@@ -7,20 +7,21 @@
     "theme"
   ],
   "scripts": {
-    "dev": "nuxt dev theme",
-    "build": "nuxt build theme",
-    "generate": "nuxt generate theme",
-    "preview": "nuxt preview theme"
+    "dev": "nuxt dev template",
+    "build": "nuxt build template",
+    "generate": "nuxt generate template",
+    "preview": "nuxt preview template",
+    "lint": "eslint ."
   },
   "dependencies": {
-    "@nuxt/content": "npm:@nuxt/content-edge@latest",
     "@nuxt-themes/config": "npm:@nuxt-themes/config-edge@latest",
+    "@nuxt/content": "npm:@nuxt/content-edge@latest",
     "@nuxtjs/design-tokens": "npm:@nuxtjs/design-tokens-edge@latest"
   },
   "devDependencies": {
-    "typescript": "^4.7.4",
+    "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "eslint": "^8.19.0",
     "nuxt": "npm:nuxt3@latest",
-    "@nuxtjs/eslint-config-typescript": "^10.0.0"
+    "typescript": "^4.7.4"
   }
 }

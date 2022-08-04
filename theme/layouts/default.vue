@@ -1,11 +1,14 @@
 <template>
-  <div class="layout">
+  <div class="layout" :style="{ color: $tokens('colors.primary.200') }">
     <slot />
   </div>
 </template>
 
 <style scoped>
 .layout {
-  margin: 10px 0;
+  /*
+  ** TODO: this does not work
+  color: v-bind($tokens('colors.primary.500'))
+  */
 }
 </style>

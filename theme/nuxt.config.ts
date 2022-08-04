@@ -18,5 +18,9 @@ export default defineNuxtConfig({
   ],
   content: {
     documentDriven: true
+  },
+  // TODO: remove in RC7
+  experimental: {
+    viteNode: true
   }
 })
