@@ -1,5 +1,5 @@
 <template>
-<div>
-  Hello World 👋
-</div>
+  <div>
+    <Markdown :use="$slots.default">Hello World 👋</Markdown>
+  </div>
 </template>
