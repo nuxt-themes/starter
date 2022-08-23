@@ -1,6 +1,10 @@
+<script setup lang="ts">
+const myTheme = useAppConfig().myTheme
+</script>
+
 <template>
   <div>
-    <header>{{ $theme.value.name }}</header>
+    <header>{{ myTheme.name }}</header>
     <main><slot /></main>
   </div>
 </template>
