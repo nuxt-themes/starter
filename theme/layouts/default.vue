@@ -4,8 +4,8 @@
   </div>
 </template>
 
-<style scoped>
+<style lang="postcss" scoped>
 .layout {
-  color: v-bind($dt('colors.primary.500'));
+  color: $dt('colors.primary.500');
 }
 </style>
