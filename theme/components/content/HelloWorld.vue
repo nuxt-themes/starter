@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Markdown :use="$slots.default">
+    <ContentSlot :use="$slots.default">
       Hello World
-    </Markdown>
+    </ContentSlot>
   </div>
 </template>
