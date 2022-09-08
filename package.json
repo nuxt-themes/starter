@@ -1,13 +1,13 @@
 {
   "name": "my-nuxt-theme",
-  "private": true,
   "type": "module",
+  "version": "0.0.1",
   "exports": "./theme/nuxt.config.ts",
   "files": [
     "theme"
   ],
   "scripts": {
-    "dev": "nuxt dev template",
+    "dev": "nuxi prepare theme && nuxt dev template",
     "build": "nuxt build template",
     "generate": "nuxt generate template",
     "preview": "nuxt preview template",
