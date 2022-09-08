@@ -1,6 +1,6 @@
-import { defineTokens, palette } from '@nuxtjs/design-tokens'
+import { defineTheme, palette } from 'pinceau'
 
-export default defineTokens({
+export default defineTheme({
   colors: {
     primary: palette('teal')
   }
