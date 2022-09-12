@@ -1,0 +1,10 @@
+{
+  "name": "my-nuxt-theme",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./nuxt.config.ts",
+  "dependencies": {
+    "@nuxt/content": "^2.1.0",
+    "pinceau": "latest"
+  }
+}
