@@ -1,3 +1,6 @@
 export default defineNuxtConfig({
-  extends: '..'
+  extends: '..',
+  typescript: {
+    includeWorkspace: true
+  }
 })
