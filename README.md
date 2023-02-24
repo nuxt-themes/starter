@@ -1,6 +1,6 @@
-# Nuxt Theme Starter
+# Nuxt Studio Theme Starter
 
-Create Nuxt theme with this GitHub template.
+Create a compatible [Nuxt Studio](https://nuxt.studio) theme with this GitHub template.
 
 ## Setup
 
@@ -34,10 +34,10 @@ Once done, your users will only have to run:
 npm install --save your-theme
 ```
 
-Then add the dependency to their `extends` in `nuxt.config`:
+Then add the dependency to their `extends` in `nuxt.config.ts`:
 
 ```ts
-defineNuxtConfig({
+export default defineNuxtConfig({
   extends: 'your-theme'
 })
 ```
@@ -70,4 +70,4 @@ Locally preview production build:
 pnpm preview
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
