@@ -1,0 +1,13 @@
+{
+  "name": "my-theme-starter",
+  "private": true,
+  "dependencies": {
+    "my-theme": "0.0.1"
+  },
+  "devDependencies": {
+    "@nuxt/eslint-config": "^0.1.1",
+    "eslint": "^8.36.0",
+    "nuxt": "^3.3.2",
+    "typescript": "^5.0.2"
+  }
+}

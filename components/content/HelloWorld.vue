@@ -1,13 +1,11 @@
 <template>
-  <div class="hello">
-    <ContentSlot :use="$slots.default">
-      Hello World
-    </ContentSlot>
+  <div class="hello-world">
+    <ContentSlot :use="$slots.default" />
   </div>
 </template>
 
 <style lang="postcss" scoped>
-.hello {
-  color: $dt('colors.primary.500');
+.hello-world {
+  color: $dt('color.primary.900');
 }
 </style>

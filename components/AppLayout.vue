@@ -4,20 +4,27 @@ const myTheme = useAppConfig().myTheme
 
 <template>
   <div>
-    <header>{{ myTheme.name }}</header>
-    <main><slot /></main>
+    <header>{{ myTheme?.name || 'My project' }}</header>
+    <main>
+      <slot />
+    </main>
   </div>
 </template>
 
-<style>
+<style lang="postcss">
 body {
+  font-family: $dt('font.primary');
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 header {
-  background: #eee;
-  padding: 20px;
+  height: $dt('header.height');
+  background: $dt('color.grey');
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
 }
+
 main {
   padding: 20px;
 }
