@@ -20,8 +20,9 @@
   },
   "dependencies": {
     "@nuxt/content": "^2.6.0",
-    "pinceau": "^0.18.9",
-    "@nuxthq/studio": "^0.13.2"
+    "@nuxthq/studio": "^0.13.2",
+    "@unocss/nuxt": "^0.52.7",
+    "pinceau": "^0.18.9"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",

@@ -4,8 +4,17 @@ const myTheme = useAppConfig().myTheme
 
 <template>
   <div>
-    <header>{{ myTheme?.name || 'My project' }}</header>
-    <main>
+    <header
+      h-header
+      text-grey
+      bg-primary-500
+      flex
+      items-center
+      p-5
+    >
+      {{ myTheme?.name || 'My project' }}
+    </header>
+    <main p-5>
       <slot />
     </main>
   </div>
@@ -13,19 +22,7 @@ const myTheme = useAppConfig().myTheme
 
 <style lang="postcss">
 body {
-  font-family: $dt('font.primary');
   margin: 0;
-}
-
-header {
-  height: $dt('header.height');
-  background: $dt('color.grey');
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-}
-
-main {
-  padding: 20px;
+  font-family: $dt('font.primary');
 }
 </style>
