@@ -24,10 +24,10 @@ importers:
   .starters/default:
     specifiers:
       '@nuxt/eslint-config': ^0.1.1
-      eslint: ^8.36.0
+      eslint: ^8.41.0
       my-theme: 0.0.1
-      nuxt: ^3.3.2
-      typescript: ^5.0.2
+      nuxt: ^3.5.2
+      typescript: ^5.0.4
     dependencies:
       my-theme: link:../..
     devDependencies:
