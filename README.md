@@ -14,9 +14,9 @@ pnpm install
 
 Your theme is at the root of this repository, it is exactly like a regular Nuxt project, except you can publish it on NPM.
 
-The `.playground` directory should help you on trying your theme during development.
+The `.starters/default/` directory should help you on trying your theme during development.
 
-Running `pnpm dev` will prepare and boot `.playground` directory, which imports your theme itself.
+Running `pnpm dev` will prepare and boot `.starters/default/` directory, which imports your theme itself.
 
 ## Distributing your theme
 
